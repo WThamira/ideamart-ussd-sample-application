@@ -16,6 +16,6 @@
 
     <servlet-mapping>
         <servlet-name>moReceiver</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>/moReceiver</url-pattern>
     </servlet-mapping>
 </web-app>
