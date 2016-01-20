@@ -6,16 +6,16 @@
   <display-name>Archetype Created Web Application</display-name>
   
       <servlet>
-        <servlet-name>moReceiver</servlet-name>
+        <servlet-name>Receiver</servlet-name>
         <servlet-class>hms.kite.samples.api.ussd.MoUssdReceiver</servlet-class>
         <init-param>
             <param-name>ussdReceiver</param-name>
-            <param-value>com.ideamart.sample.ussd.client.MainMenu</param-value>
+            <param-value>com.ideamart.sample.ussd.receiver.Receiver</param-value>
         </init-param>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>moReceiver</servlet-name>
-        <url-pattern>/moReceiver</url-pattern>
+        <servlet-name>Receiver</servlet-name>
+        <url-pattern>/Receiver</url-pattern>
     </servlet-mapping>
 </web-app>
